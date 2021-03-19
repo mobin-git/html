@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(to top right, #2178dd 0%, #f8cf6a 100%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+        border-radius: 2.75rem;
+        display: flex;
+        background-color: rgb(243, 243, 243);
+        height: 56rem;
+        width: 105rem;
+}
