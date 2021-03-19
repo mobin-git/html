@@ -4,7 +4,7 @@ body {
 }
 .container {
   height: 100vh;
-  background-image: linear-gradient(to top right, #2178dd 0%, #f8cf6a 100%);
+  background-image: linear-gradient(to top right, #1370db 0%, #ffc634 100%);
   margin: 0;
   display: flex;
   justify-content: center;
