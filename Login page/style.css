@@ -1,70 +1,92 @@
-html {
-    font-family: shabnam;
-}
 body {
-    margin: 0;
-  }
-  .container {
-    height: 100vh;
-    background-image: linear-gradient(to top right, #0069CC 0%, #F5C000 100%);
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .box {
-    display: flex;
-    background-color: rgb(243, 243, 243);
-    width: 80%;
-    height: 85vh;
-    border-radius: 4.5rem;
-    padding: 1.3% 1.5%;
-  }
-  .title {
-      text-align: center;
-      color: #054684;
-      font-size: 4.5vw;
-  }
+  margin: 0;
+  font-family: shabnam;
+}
 
+.container-login {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4cd02;
+}
 
-  
-  
+.box-login {
+  width: 80%;
+  height: 78vh;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.6vw;
+}
 
+.loginpart-login {
+  width: 40%;
+  padding-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
 
+.title-login {
+  margin: 0;
+  text-align: center;
+  font-size: 2.5vw;
+  color: #235ad3;
+  font-weight: bold;
+}
 
+input {
+  height: 2.5rem;
+  padding: 0 4%;
+  border: solid 2px #235ad3;
+  border-radius: 2rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.2vw;
+  font-family: shabnam;
+  color: #235ad3;
+  direction: ltr;
+}
 
+input:focus {
+  outline: none;
+}
 
+.label-login {
+  margin: 0;
+  padding-right: 4%;
+  font-weight: 550;
+  font-size: 1.2vw;
+  color: #235ad3;
+}
 
-
-
-
-
-  .userpass {
-    font-size: 1.8vw;
-    flex-direction: column;
-    margin-right: 1vw;
-    margin-top: 2vh;
-    display: flex;
-    background-color: rgb(170, 170, 170);
-    width: 40%;
-    height: 77vh;
-    border-radius: 4.5rem;
-    padding: 1.3% 1.5%;
-  }
-  input{
-      display: fixed;
-    font-family: shabnam;    
-    font-size: 1.8vw;
-  }
-  button {
-      font-size: 1.8vw;
-      justify-content: center;
-      align-items: center;
-      font-family: shabnam;   
-      margin-top: 1vh;
-      border-radius: 1.25rem;
-      height: 6.5vh;
-      width: 31vw;
-      display: flex;
-  }
- 
+.loginbutt-login {
+  width: 90%;
+  height: 2.9rem;
+  font-size: 1.8vw;
+  font-weight: bold;
+  font-family: shabnam;
+  border-radius: 2rem;
+  border: none;
+  background-color: #235ad3;
+  color: white;
+}
+.loginbutt-login:focus {
+  outline: none;
+}
+.loginbutt-login:hover {
+  background-color: #0032bb;
+}
+.email-login {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6%;
+}
+.password-login {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6%;
+}
