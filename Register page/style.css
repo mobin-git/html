@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: shabnam;
+  }
+  
+  .container-login {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top right, #ffd710 20%, #a17e00f6  100%);;
+  }
+  
+  .box-login {
+    width: 80%;
+    height: 78vh;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vw;
+  }
+  
+  .loginpart-login {
+    width: 40%;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .title-login {
+    margin: 0;
+    text-align: center;
+    font-size: 2.5vw;
+    color: #e0b003;
+    font-weight: bold;
+  }
+  
+  input {
+    height: 2.5rem;
+    padding: 0 4%;
+    border: solid 2px #e0b003;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    font-family: shabnam;
+    color: #414141;
+    direction: ltr;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .label-login {
+    margin: 0;
+    padding-right: 4%;
+    font-weight: 550;
+    font-size: 1.2vw;
+    color: #F5C000;
+  }
+  
+  .loginbutt-login {
+    width: 90%;
+    height: 2.9rem;
+    font-size: 1.8vw;
+    font-weight: bold;
+    font-family: shabnam;
+    border-radius: 2rem;
+    border: none;
+    background-color: #F5C000;
+    color: white;
+  }
+  .loginbutt-login:focus {
+    outline: none;
+  }
+  .loginbutt-login:hover {
+    background-color: #dbac03;
+  }
+  .email-login {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6%;
+  }
+  .password-login {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6%;
+  }
+  
+  .img {
+      bottom: 0;
+      left: 0;
+      width: 80%;
+    height: 78vh;
+  }
