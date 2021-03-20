@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e4cd02;
+  background-image: linear-gradient(to top right, #60bbe3 0%, #2178dd 100%);;
 }
 
 .box-login {
@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-weight: bold;
 }
 
@@ -89,4 +90,11 @@ input:focus {
   display: flex;
   flex-direction: column;
   margin-bottom: 6%;
+}
+
+.img {
+	bottom: 0;
+	left: 0;
+	width: 80%;
+  height: 78vh;
 }
