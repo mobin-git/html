@@ -1,0 +1,33 @@
+.react-persian-j-calendar {
+  background: #0069cc !important;
+  color: #333333;
+  padding: 11px !important;
+  border-radius: 1.5rem !important ;
+  margin-bottom: 1rem !important;
+}
+.calendar_item {
+  background-color: #004381;
+  color: white;
+  border: 2px solid #0069cc !important;
+}
+.calendar_row {
+  justify-content: space-between !important;
+}
+.calendar_item.disable {
+  color: black !important;
+  opacity: 40%;
+}
+.calendar_item.selected {
+  background-color: #f5c000 !important;
+  color: black !important;
+}
+.calendar_item.today {
+  background-color: #f5c000 !important;
+  color: black !important;
+}
+.calendar_titr {
+  color: white !important;
+}
+.calendar_today {
+  background-color: #004381 !important;
+}

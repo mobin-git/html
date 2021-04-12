@@ -1,0 +1,148 @@
+.window {
+  background-color: #ffffff;
+  border-radius: 0 1.5rem 1.5rem 0;
+  height: 96.5vh;
+  margin: 1.5vh 1.5% 1.5vh 1.5%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  padding: 2vh 1.5%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.datetitlebar {
+  color: #1f87ff;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.workbox {
+  background-color: #c6e0fb;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0.8%;
+}
+.workboxd {
+  background-color: #c6e0fb;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0.8%;
+  text-decoration: line-through;
+}
+.titlepage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0rem;
+}
+.titlepagetxt {
+  font-size: 3.4rem;
+  color: #00296b;
+  font-weight: bold;
+}
+.searchbox {
+  border: none;
+  border-bottom: solid #00296b;
+}
+.searchbox:focus {
+  outline: none;
+}
+.ticbut {
+  background-color: #3bb54a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 2vw;
+  text-align: center;
+  height: 2vw;
+  cursor: pointer;
+  opacity: 0.4;
+  border-radius: 100rem;
+}
+.ticbut:hover {
+  opacity: 1;
+}
+.ticbut:focus {
+  outline: none;
+}
+.workbon {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00296b;
+  font-weight: bold;
+  font-size: 1.3rem;
+  overflow: hidden;
+  height: 1.7rem;
+}
+.workbto {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00296b;
+  font-size: 1rem;
+  overflow: hidden;
+  height: 1.7rem;
+}
+.workbza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00296b;
+  font-weight: bold;
+  font-size: 1rem;
+  overflow: hidden;
+  height: 1rem;
+  height: 1.2rem;
+}
+.workbta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00296b;
+  font-weight: bold;
+  font-size: 1rem;
+  overflow: hidden;
+}
+.workbzt {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.workbbu {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #00296b;
+  font-weight: bold;
+  font-size: 1rem;
+  overflow: hidden;
+  height: 1.7rem;
+}
+.divi {
+  display: flex;
+  background-color: #0069cc;
+  border-radius: 1rem;
+  height: 1.4rem;
+  align-items: center;
+  color: white;
+  padding: 0rem 0.8%;
+  text-align: center;
+  margin: 0.2rem 0rem 0.6rem;
+  font-size: 0.78rem;
+}
+.boxicon {
+  background-color: #c6e0fb;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.boxicon:focus {
+  outline: none;
+}
